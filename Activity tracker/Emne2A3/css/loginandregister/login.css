@@ -1,0 +1,98 @@
+input.login {
+    background: rgb(37, 35, 46);
+    border: 1px solid rgba(0, 242, 255, 0.493);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+input::placeholder {
+    color: rgb(105, 105, 105);
+}
+
+input.login:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+input:hover::placeholder {
+    color: rgb(37, 35, 46);
+}
+
+button.login {
+    margin-top: 15px;
+    border-radius: 10lh;
+    width: 60%;
+    color: white;
+    background-color: rgb(51, 48, 63);
+    border: rgba(13, 238, 219, 0.61) 2px solid;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+button.login:hover {
+    cursor: pointer;
+    border: rgba(3, 92, 86, 0.61) 2px solid;
+    background-color: rgb(0, 53, 48);
+    color: white;
+    transition: 0.2s;
+}
+
+button.signUp {
+    padding: 5px;
+    background-color: inherit;
+    border: inherit;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+button.signUp:hover {
+    cursor: pointer;
+    background-color: rgb(24, 22, 29);
+    color: white;
+    transition: 0.2s;
+}
+
+.signuptextlocation {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+}
+
+p.forgotPW {
+    font-size: x-small;
+    transition: 0.2s;
+}
+
+p.forgotPW:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.2s;
+}
+
+.signuplocation {
+    position: absolute;
+    left: 50%;
+    bottom: -1%;
+}
+
+#loginimg {
+    opacity: 10%;
+}
+
+.loginbackground {
+    border-radius: 5%;
+    background: rgba(0, 242, 255, 0.164);
+}
+
+#userField, #passField, #regiUserField, #regiEmailField, #regiPassField, #repeatPassField {
+    display: none;
+    color: rgb(240, 109, 109);
+    font-size: small;
+    text-align: left;
+    margin-left: 120px;
+}
+

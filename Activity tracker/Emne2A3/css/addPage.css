@@ -1,0 +1,157 @@
+/* -- Tform -- */
+#selectorA {
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#once {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+#repeating {
+}
+
+#submitA {
+}
+
+#addTform {
+}
+
+/* -- Gform -- */
+
+#addGform {
+
+}
+
+#goalDes {
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectorG {
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#freeDesc {
+    width: 200px;
+    height: 70px;
+}
+
+#submitG {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+/* -- Universal -- */
+
+#repeats {
+}
+#selector {
+}
+
+
+#checkonce {
+}
+#checkrep {
+}
+
+
+
+label {
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+}
+
+input.innersubmit {
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+input.innersubmit:hover {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input.submit {
+}
+
+.addbtn {
+    background-color: inherit;
+    color: white;
+    border: 2px outset rgba(0, 242, 255, 0.493);
+    width: 13dvh;
+    height: 35px;
+    cursor: pointer;
+}
+
+#addT{
+    position: relative;
+    
+}
+#addA{
+    position: relative;
+    
+}
+.addMore{
+    position: relative;
+    
+}
+.addbtn:hover {
+    background-color: rgb(45, 43, 56);
+    transition: 0.2s;
+}
+
+.dropdown {
+    width: 120px;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    transition: 0.2s;
+    width: 70dvw;
+    height: 90%;
+}
+
+.navcontainer {
+    padding: 10px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.back {
+    height: 77dvh;
+    bottom: 12dvh;
+}
+
+.alignright {
+    align-items: center;
+    justify-content: right;
+    vertical-align: text-top;
+}
+
+.checkedchoice {
+    margin-left: 30px;
+}
+
+.inputsandselects {
+    width: 100px;
+}
+
+div.spacing {
+    margin-bottom: 20px;
+}
+
+.lol {
+    margin-top: 20px;
+    margin-right: 30px;
+}

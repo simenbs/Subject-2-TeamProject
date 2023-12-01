@@ -1,0 +1,129 @@
+.activitywrapper {
+    height: 400px;
+    top: 33dvh;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 600px;
+
+
+}
+
+.styled-scrollbars {
+    /* Foreground, Background */
+    scrollbar-color: transparent transparent;
+}
+
+.styled-scrollbars::-webkit-scrollbar {
+    width: 10px;
+    /* Mostly for vertical scrollbars */
+}
+
+.styled-scrollbars::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: transparent;
+}
+
+.styled-scrollbars::-webkit-scrollbar-track {
+    /* Background */
+    background: transparent;
+}
+
+.activitynavbar {
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 600px;
+    height: 150px;
+    bottom: 55dvh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.addbtnA {
+    background-color: inherit;
+    color: white;
+    border: 2px outset orange;
+    width: 20dvh;
+    cursor: pointer;
+    height: 4dvh;
+    margin-bottom: 1dvh;
+    position: fixed;
+    left: 60dvh;
+
+}
+
+.circleplus {
+    position: absolute;
+    top: 5px;
+    right: 3%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: xx-large;
+    background-color: rgba(0, 242, 255, 0.493);
+    transition: 0.2s;
+}
+
+.circleplus:hover {
+    cursor: pointer;
+    background-color: rgb(0, 80, 73);
+    transition: 0.2s;
+}
+
+.circleplus:active {
+    top: 2%;
+}
+
+.activityprog {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.activitiesTheme {
+    background-color: rgb(0, 80, 73);
+    padding: 10px;
+    border-radius: 10lh;
+    position: relative;
+    margin-top: 30px;
+}
+
+#activitiesimg {
+    opacity: 5%;
+    position: static;
+}
+
+progress.prog {
+    border-radius: 10lh;
+}
+
+progress.prog::-webkit-progress-bar {
+    border-radius: 10lh;
+    background-color: rgb(37, 35, 46);
+}
+
+progress.prog::-webkit-progress-value {
+    background-color: rgb(0, 242, 255);
+    border-radius: 10lh;
+}
+
+#keySkillAdd {
+    position: relative;
+    bottom: 3dvh;
+}
+
+#keySkills {
+    text-align: center;
+    width: 200px;
+    height: 34px;
+    text-transform: capitalize;
+}
+
+hr.activityhr {
+    width: 600px;
+    position: fixed;
+    bottom: 66dvh;
+}

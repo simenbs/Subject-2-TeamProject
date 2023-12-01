@@ -1,0 +1,19 @@
+.historyApp {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar2{
+    height: 350px;
+    width: 500px;
+}
+
+.historygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: large;
+}

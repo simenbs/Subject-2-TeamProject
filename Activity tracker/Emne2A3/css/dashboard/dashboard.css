@@ -1,0 +1,50 @@
+.dashwrapper {
+    font-family: 'Abel', sans-serif;
+}
+
+.dashnavbar {
+}
+
+.backgroundimg {
+    background-image: url("/img/dashboard.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+
+.dashmiddlesection {
+}
+
+.dashtitle {
+    padding: 10px;
+}
+
+.dashtabs {
+    width: 100%;
+}
+
+hr.dashHR {
+    border: rgba(0, 242, 255, 0.493) 1px solid;
+}
+
+.logout {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: small;
+    transition: 0.2s;
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.2s;
+}
+
+#dashimg {
+    opacity: 3%;
+}
+
+#dashcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

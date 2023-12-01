@@ -1,0 +1,132 @@
+.dashgrid {
+    display: grid;
+    grid-template-columns: 700px 700px 400px;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    grid-template-areas:
+        "main main side"
+        "main main side"
+        "main main side"
+    ;
+}
+
+.dashside {
+    grid-area: side;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 30px 60px;
+}
+
+.dashsideinnards {
+    columns: 100% 2;
+    column-gap: 30px;
+    padding: 5px;
+}
+
+.dashmain {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashmainlogin {
+    grid-area: login;
+}
+
+.dashinnermain {
+    font-family: 'Anton', sans-serif;
+    font-size: 400%;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 40px black;
+    display: grid;
+    align-content: center;
+}
+
+.dashbackgroundimage {
+    background-image: url("/img/forest.jpg");
+    background-repeat: repeat;
+    border-radius: 30px 60px;
+    /* transform: scaleX(-1); */
+}
+
+.dashcircle {
+    background: rgba(0, 0, 0, 0.418);
+    width: 30px;
+    height: 30px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox {
+    overflow: auto;
+    overflow-wrap: break-word;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.textbox::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.textbox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgb(48, 45, 59); 
+    border-radius: 10px;
+}
+
+.textbox::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 242, 255, 0.295); 
+}
+
+i.dashcirlce {
+    font-size: large;
+    z-index: 0;
+}
+
+progress.dashprog {
+    margin-left: 15px;
+    border-radius: 10lh;
+    border: 2px solid rgba(255, 255, 255, 0.37);
+}
+
+progress.dashprog::-webkit-progress-bar {
+    border-radius: 10lh;
+    background-color: rgb(37, 35, 46);
+}
+
+progress.dashprog::-webkit-progress-value {
+    background-color: rgb(0, 242, 255);
+    border-radius: 10lh;
+}
+
+button.switchpages {
+    font-size: large;
+    border: none;
+    background: inherit;
+    color: rgba(0, 242, 255, 0.76);
+    transition: 0.2s;
+}
+
+button.switchpages:hover {
+    cursor: pointer;
+    color: rgba(1, 157, 165, 0.76);
+    transition: 0.2s;
+}
+
+button.switchpages:active {
+    top: 2px;
+}
+
+div.marginspacing {
+    margin-left: 10px;
+}
